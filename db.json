@@ -1,0 +1,476 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 15 Pro",
+      "brand": "Apple",
+      "price": 134900,
+      "mrp": 149900,
+      "discount": 10,
+      "description": "Titanium body, A17 Pro chip, 256GB Storage",
+      "thumbnail": "https://picsum.photos/id/160/200/200",
+      "images": [
+        "https://picsum.photos/id/160/500/500",
+        "https://picsum.photos/id/370/500/500"
+      ],
+      "rating": 4.8,
+      "reviews": [
+        { "id": 1, "user": "Rahul", "rating": 5, "comment": "Best phone" },
+        { "id": 2, "user": "Priya", "rating": 4, "comment": "Camera mast" }
+      ],
+      "category": "Mobile",
+      "stock": 15,
+      "inStock": true,
+      "sku": "APL-IP15P-256-TN",
+      "createdAt": "2026-03-15T10:30:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Nike Air Max 270",
+      "brand": "Nike",
+      "price": 8999,
+      "mrp": 11995,
+      "discount": 25,
+      "description": "Running shoes with max air cushion, Black/White",
+      "thumbnail": "https://picsum.photos/id/21/200/200",
+      "images": [
+        "https://picsum.photos/id/21/500/500"
+      ],
+      "rating": 4.5,
+      "reviews": [
+        { "id": 3, "user": "Aman", "rating": 5, "comment": "Super comfortable" }
+      ],
+      "category": "Shoes",
+      "stock": 30,
+      "inStock": true,
+      "sku": "NIK-AM270-BW-10",
+      "createdAt": "2026-04-02T14:20:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Sony WH-1000XM5",
+      "brand": "Sony",
+      "price": 29990,
+      "mrp": 34990,
+      "discount": 14,
+      "description": "Wireless noise cancelling headphones, 30hr battery",
+      "thumbnail": "https://picsum.photos/id/201/200/200",
+      "images": [
+        "https://picsum.photos/id/201/500/500",
+        "https://picsum.photos/id/145/500/500"
+      ],
+      "rating": 4.9,
+      "reviews": [
+        { "id": 4, "user": "Sneha", "rating": 5, "comment": "ANC is next level" }
+      ],
+      "category": "Audio",
+      "stock": 22,
+      "inStock": true,
+      "sku": "SNY-WH1000XM5-BLK",
+      "createdAt": "2026-02-10T09:00:00Z"
+    },
+    {
+      "id": 4,
+      "name": "MacBook Air M2",
+      "brand": "Apple",
+      "price": 114900,
+      "mrp": 119900,
+      "discount": 4,
+      "description": "13.6 inch, 8GB RAM, 256GB SSD, Midnight",
+      "thumbnail": "https://picsum.photos/id/0/200/200",
+      "images": [
+        "https://picsum.photos/id/0/500/500",
+        "https://picsum.photos/id/1/500/500"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "category": "Laptop",
+      "stock": 12,
+      "inStock": true,
+      "sku": "APL-MBA-M2-256-MN",
+      "createdAt": "2026-01-20T11:45:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Samsung 55 inch 4K QLED TV",
+      "brand": "Samsung",
+      "price": 65990,
+      "mrp": 89900,
+      "discount": 27,
+      "description": "Smart TV with Quantum HDR, 120Hz refresh rate",
+      "thumbnail": "https://picsum.photos/id/250/200/200",
+      "images": [
+        "https://picsum.photos/id/250/500/500"
+      ],
+      "rating": 4.6,
+      "reviews": [
+        { "id": 5, "user": "Vikram", "rating": 4, "comment": "Colors are amazing" }
+      ],
+      "category": "Electronics",
+      "stock": 8,
+      "inStock": true,
+      "sku": "SAM-QLED55-4K-23",
+      "createdAt": "2026-03-28T16:10:00Z"
+    },
+    {
+      "id": 6,
+      "name": "Levi's Men's 511 Slim Jeans",
+      "brand": "Levi's",
+      "price": 2999,
+      "mrp": 4999,
+      "discount": 40,
+      "description": "Stretch denim, Dark Blue wash, Size 32",
+      "thumbnail": "https://picsum.photos/id/325/200/200",
+      "images": [
+        "https://picsum.photos/id/325/500/500"
+      ],
+      "rating": 4.3,
+      "reviews": [],
+      "category": "Clothing",
+      "stock": 45,
+      "inStock": true,
+      "sku": "LEV-511-SLIM-32",
+      "createdAt": "2026-04-10T08:25:00Z"
+    },
+    {
+      "id": 7,
+      "name": "Fossil Grant Chronograph Watch",
+      "brand": "Fossil",
+      "price": 8995,
+      "mrp": 11995,
+      "discount": 25,
+      "description": "Stainless steel, Brown leather strap, Water resistant",
+      "thumbnail": "https://picsum.photos/id/175/200/200",
+      "images": [
+        "https://picsum.photos/id/175/500/500",
+        "https://picsum.photos/id/174/500/500"
+      ],
+      "rating": 4.4,
+      "reviews": [
+        { "id": 6, "user": "Karan", "rating": 5, "comment": "Classy look" }
+      ],
+      "category": "Watches",
+      "stock": 18,
+      "inStock": true,
+      "sku": "FOS-GRANT-CHR-BR",
+      "createdAt": "2026-02-05T12:00:00Z"
+    },
+    {
+      "id": 8,
+      "name": "boAt Airdopes 141",
+      "brand": "boAt",
+      "price": 1299,
+      "mrp": 4490,
+      "discount": 71,
+      "description": "TWS earbuds with 42H playback, ENx Tech",
+      "thumbnail": "https://picsum.photos/id/96/200/200",
+      "images": [
+        "https://picsum.photos/id/96/500/500"
+      ],
+      "rating": 4.1,
+      "reviews": [
+        { "id": 7, "user": "Neha", "rating": 4, "comment": "Value for money" }
+      ],
+      "category": "Audio",
+      "stock": 120,
+      "inStock": true,
+      "sku": "BOAT-AD141-BLK",
+      "createdAt": "2026-04-15T19:30:00Z"
+    },
+    {
+      "id": 9,
+      "name": "Instant Pot Duo 7-in-1",
+      "brand": "Instant Pot",
+      "price": 7995,
+      "mrp": 10995,
+      "discount": 27,
+      "description": "6L Electric pressure cooker, 13 presets",
+      "thumbnail": "https://picsum.photos/id/292/200/200",
+      "images": [
+        "https://picsum.photos/id/292/500/500"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "category": "Home & Kitchen",
+      "stock": 25,
+      "inStock": true,
+      "sku": "IP-DUO-7IN1-6L",
+      "createdAt": "2026-03-01T10:00:00Z"
+    },
+    {
+      "id": 10,
+      "name": "Adidas Ultraboost 23",
+      "brand": "Adidas",
+      "price": 17999,
+      "mrp": 19999,
+      "discount": 10,
+      "description": "Lightweight running shoes, Primeknit upper",
+      "thumbnail": "https://picsum.photos/id/311/200/200",
+      "images": [
+        "https://picsum.photos/id/311/500/500"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "category": "Shoes",
+      "stock": 0,
+      "inStock": false,
+      "sku": "ADS-UB23-WHT-9",
+      "createdAt": "2026-01-12T13:15:00Z"
+    },
+    {
+      "id": 11,
+      "name": "Canon EOS R50 Mirrorless Camera",
+      "brand": "Canon",
+      "price": 68990,
+      "mrp": 72990,
+      "discount": 5,
+      "description": "24.2MP, 4K video, RF-S18-45mm lens kit",
+      "thumbnail": "https://picsum.photos/id/259/200/200",
+      "images": [
+        "https://picsum.photos/id/250/500/500",
+        "https://picsum.photos/id/259/500/500"
+      ],
+      "rating": 4.8,
+      "reviews": [
+        { "id": 8, "user": "Arjun", "rating": 5, "comment": "Best for beginners" }
+      ],
+      "category": "Camera",
+      "stock": 9,
+      "inStock": true,
+      "sku": "CAN-R50-KIT-BLK",
+      "createdAt": "2026-02-18T17:40:00Z"
+    },
+    {
+      "id": 12,
+      "name": "The Psychology of Money Book",
+      "brand": "Jaico",
+      "price": 349,
+      "mrp": 399,
+      "discount": 13,
+      "description": "By Morgan Housel, Paperback, 256 pages",
+      "thumbnail": "https://picsum.photos/id/24/200/200",
+      "images": [
+        "https://picsum.photos/id/24/500/500"
+      ],
+      "rating": 4.9,
+      "reviews": [
+        { "id": 9, "user": "Meera", "rating": 5, "comment": "Must read" }
+      ],
+      "category": "Books",
+      "stock": 200,
+      "inStock": true,
+      "sku": "BOK-TPOM-PB-EN",
+      "createdAt": "2026-04-20T11:00:00Z"
+    },
+    {
+      "id": 13,
+      "name": "Dyson V15 Detect Vacuum Cleaner",
+      "brand": "Dyson",
+      "price": 65900,
+      "mrp": 69900,
+      "discount": 6,
+      "description": "Cordless, Laser dust detection, 60min runtime",
+      "thumbnail": "https://picsum.photos/id/107/200/200",
+      "images": [
+        "https://picsum.photos/id/107/500/500"
+      ],
+      "rating": 4.8,
+      "reviews": [],
+      "category": "Appliances",
+      "stock": 6,
+      "inStock": true,
+      "sku": "DYS-V15-DET-YEL",
+      "createdAt": "2026-01-30T15:50:00Z"
+    },
+    {
+      "id": 14,
+      "name": "Wildcraft 45L Rucksack",
+      "brand": "Wildcraft",
+      "price": 2499,
+      "mrp": 3499,
+      "discount": 29,
+      "description": "Trekking backpack with rain cover, Blue",
+      "thumbnail": "https://picsum.photos/id/28/200/200",
+      "images": [
+        "https://picsum.photos/id/28/500/500"
+      ],
+      "rating": 4.2,
+      "reviews": [],
+      "category": "Bags",
+      "stock": 40,
+      "inStock": true,
+      "sku": "WLD-RUCK-45L-BLU",
+      "createdAt": "2026-03-22T09:30:00Z"
+    },
+    {
+      "id": 15,
+      "name": "Philips Air Fryer HD9252",
+      "brand": "Philips",
+      "price": 8499,
+      "mrp": 12995,
+      "discount": 35,
+      "description": "4.1L, Digital, 1400W with Rapid Air Tech",
+      "thumbnail": "https://picsum.photos/id/431/200/200",
+      "images": [
+        "https://picsum.photos/id/431/500/500"
+      ],
+      "rating": 4.5,
+      "reviews": [
+        { "id": 10, "user": "Anjali", "rating": 4, "comment": "Oil free cooking" }
+      ],
+      "category": "Home & Kitchen",
+      "stock": 28,
+      "inStock": true,
+      "sku": "PHI-AF-HD9252",
+      "createdAt": "2026-02-28T18:20:00Z"
+    },
+    {
+      "id": 16,
+      "name": "OnePlus Nord Buds 2r",
+      "brand": "OnePlus",
+      "price": 2199,
+      "mrp": 2299,
+      "discount": 4,
+      "description": "12.4mm drivers, 38hr playback, IP55 rating",
+      "thumbnail": "https://picsum.photos/id/366/200/200",
+      "images": [
+        "https://picsum.photos/id/366/500/500"
+      ],
+      "rating": 4.3,
+      "reviews": [],
+      "category": "Audio",
+      "stock": 80,
+      "inStock": true,
+      "sku": "OPL-NORD-B2R-BLK",
+      "createdAt": "2026-04-05T20:10:00Z"
+    },
+    {
+      "id": 17,
+      "name": "Zara Floral Print Midi Dress",
+      "brand": "Zara",
+      "price": 3590,
+      "mrp": 4590,
+      "discount": 22,
+      "description": "Women's summer dress, V-neck, Size M",
+      "thumbnail": "https://picsum.photos/id/64/200/200",
+      "images": [
+        "https://picsum.photos/id/64/500/500"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "category": "Clothing",
+      "stock": 32,
+      "inStock": true,
+      "sku": "ZRA-FLORAL-MID-M",
+      "createdAt": "2026-04-18T12:45:00Z"
+    },
+    {
+      "id": 18,
+      "name": "LG 260L Double Door Refrigerator",
+      "brand": "LG",
+      "price": 27990,
+      "mrp": 32990,
+      "discount": 15,
+      "description": "Smart Inverter Compressor, Shiny Steel",
+      "thumbnail": "https://picsum.photos/id/1080/200/200",
+      "images": [
+        "https://picsum.photos/id/1080/500/500"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "category": "Appliances",
+      "stock": 11,
+      "inStock": true,
+      "sku": "LG-REF-260L-STL",
+      "createdAt": "2026-01-08T14:00:00Z"
+    },
+    {
+      "id": 19,
+      "name": "JBL Flip 6 Bluetooth Speaker",
+      "brand": "JBL",
+      "price": 9999,
+      "mrp": 11999,
+      "discount": 17,
+      "description": "Portable, IP67 waterproof, 12hr playtime",
+      "thumbnail": "https://picsum.photos/id/513/200/200",
+      "images": [
+        "https://picsum.photos/id/513/500/500"
+      ],
+      "rating": 4.7,
+      "reviews": [
+        { "id": 11, "user": "Rohit", "rating": 5, "comment": "Bass is solid" }
+      ],
+      "category": "Audio",
+      "stock": 50,
+      "inStock": true,
+      "sku": "JBL-FLIP6-BLU",
+      "createdAt": "2026-03-10T16:30:00Z"
+    },
+    {
+      "id": 20,
+      "name": "Wakefit Orthopedic Memory Foam Mattress",
+      "brand": "Wakefit",
+      "price": 11499,
+      "mrp": 18499,
+      "discount": 38,
+      "description": "Queen size, 78x60x6 inch, 7 year warranty",
+      "thumbnail": "https://picsum.photos/id/42/200/200",
+      "images": [
+        "https://picsum.photos/id/42/500/500"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "category": "Furniture",
+      "stock": 14,
+      "inStock": true,
+      "sku": "WKF-MEMFOAM-QN-6",
+      "createdAt": "2026-02-14T10:15:00Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Test User",
+      "email": "test@example.com",
+      "avatar": "https://picsum.photos/id/91/200/200"
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productId": 2,
+      "quantity": 1,
+      "addedAt": "2026-05-07T18:00:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "productId": 5,
+      "quantity": 2,
+      "addedAt": "2026-05-08T09:15:00Z"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "productId": 1,
+      "quantity": 1,
+      "addedAt": "2026-05-08T10:00:00Z"
+    }
+  ],
+  "categories": [
+    { "id": 1, "name": "Mobile", "slug": "mobile" },
+    { "id": 2, "name": "Shoes", "slug": "shoes" },
+    { "id": 3, "name": "Audio", "slug": "audio" },
+    { "id": 4, "name": "Laptop", "slug": "laptop" },
+    { "id": 5, "name": "Electronics", "slug": "electronics" },
+    { "id": 6, "name": "Clothing", "slug": "clothing" },
+    { "id": 7, "name": "Watches", "slug": "watches" },
+    { "id": 8, "name": "Home & Kitchen", "slug": "home-kitchen" },
+    { "id": 9, "name": "Camera", "slug": "camera" },
+    { "id": 10, "name": "Books", "slug": "books" },
+    { "id": 11, "name": "Appliances", "slug": "appliances" },
+    { "id": 12, "name": "Bags", "slug": "bags" },
+    { "id": 13, "name": "Furniture", "slug": "furniture" }
+  ]
+}
