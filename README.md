@@ -28,6 +28,6 @@ POST /cart - Add to cart
 GET /orders?userId=1 - Get user orders
 
 ## Example
-fetch('https://mock-ecommerce-api-g93f.onrender.com//api/v1/products')
+fetch('https://mock-ecommerce-api-g93f.onrender.com/api/v1/products')
   .then(res => res.json())
   .then(data => console.log(data))
